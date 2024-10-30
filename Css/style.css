@@ -1,0 +1,93 @@
+/* All Common Css Here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul ol li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+ 
+}
+/* font-family: "Poppins", sans-serif; */
+/* font-family: "Roboto", serif; */
+/* All Common Css Here End */
+/* All css here */
+.main{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#1d0000,#20205b);
+}
+.app{
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
+    background: #ffff;
+    border-radius: 10px;
+    margin: 100px auto 0;
+}
+.app h1{
+    font-size: 25px;
+    font-weight: 600;
+   color: #001e4d;
+   border-bottom:1px solid rgb(58, 54, 54);
+   text-align: center;
+   padding-bottom: 30px;
+
+}
+.quiz{
+ padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color:#001e4d ;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.btn{
+background: #fff;
+color: #222;
+font-size: 20px;
+font-weight: 500;
+width: 100%;
+border: 2px solid #222;
+padding: 10px;
+text-align: left;
+border-radius: 10px;
+cursor: pointer;
+margin: 10px 0;
+transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background-color: #222;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background: #20205b;
+    color: #fff;
+    width: 150px;
+    border: 0;
+    font-weight: 500;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+.correct{
+    background-color: #9aeabc;
+}
+.incorrect{
+ background-color: #ff9393;
+}
+/* All css  End here */
